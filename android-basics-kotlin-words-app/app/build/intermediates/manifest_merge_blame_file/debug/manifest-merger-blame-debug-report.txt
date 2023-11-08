@@ -1,0 +1,103 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3     Copyright (C) 2020 The Android Open Source Project
+4
+5     Licensed under the Apache License, Version 2.0 (the "License");
+6     you may not use this file except in compliance with the License.
+7     You may obtain a copy of the License at
+8
+9          http://www.apache.org/licenses/LICENSE-2.0
+10
+11     Unless required by applicable law or agreed to in writing, software
+12     distributed under the License is distributed on an "AS IS" BASIS,
+13     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14     See the License for the specific language governing permissions and
+15     limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="com.example.wordsapp"
+19    android:versionCode="1"
+20    android:versionName="1.0" >
+21
+22    <uses-sdk
+23        android:minSdkVersion="19"
+23-->D:\Program\AndroidStudioSDK\Project\android-basics-kotlin-words-app\app\src\main\AndroidManifest.xml
+24        android:targetSdkVersion="33" />
+24-->D:\Program\AndroidStudioSDK\Project\android-basics-kotlin-words-app\app\src\main\AndroidManifest.xml
+25
+26    <permission
+26-->[androidx.core:core:1.9.0] C:\Users\vuvub\.gradle\caches\transforms-3\3d70cea9037e268e5f629e8760122375\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+27        android:name="com.example.wordsapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+27-->[androidx.core:core:1.9.0] C:\Users\vuvub\.gradle\caches\transforms-3\3d70cea9037e268e5f629e8760122375\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+28        android:protectionLevel="signature" />
+28-->[androidx.core:core:1.9.0] C:\Users\vuvub\.gradle\caches\transforms-3\3d70cea9037e268e5f629e8760122375\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+29
+30    <uses-permission android:name="com.example.wordsapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+30-->[androidx.core:core:1.9.0] C:\Users\vuvub\.gradle\caches\transforms-3\3d70cea9037e268e5f629e8760122375\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+30-->[androidx.core:core:1.9.0] C:\Users\vuvub\.gradle\caches\transforms-3\3d70cea9037e268e5f629e8760122375\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+31
+32    <application
+32-->D:\Program\AndroidStudioSDK\Project\android-basics-kotlin-words-app\app\src\main\AndroidManifest.xml:20:5-38:19
+33        android:allowBackup="true"
+33-->D:\Program\AndroidStudioSDK\Project\android-basics-kotlin-words-app\app\src\main\AndroidManifest.xml:21:9-35
+34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+34-->[androidx.core:core:1.9.0] C:\Users\vuvub\.gradle\caches\transforms-3\3d70cea9037e268e5f629e8760122375\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+35        android:debuggable="true"
+36        android:icon="@mipmap/ic_launcher"
+36-->D:\Program\AndroidStudioSDK\Project\android-basics-kotlin-words-app\app\src\main\AndroidManifest.xml:22:9-43
+37        android:label="@string/app_name"
+37-->D:\Program\AndroidStudioSDK\Project\android-basics-kotlin-words-app\app\src\main\AndroidManifest.xml:23:9-41
+38        android:roundIcon="@mipmap/ic_launcher_round"
+38-->D:\Program\AndroidStudioSDK\Project\android-basics-kotlin-words-app\app\src\main\AndroidManifest.xml:24:9-54
+39        android:supportsRtl="true"
+39-->D:\Program\AndroidStudioSDK\Project\android-basics-kotlin-words-app\app\src\main\AndroidManifest.xml:25:9-35
+40        android:theme="@style/Theme.Words" >
+40-->D:\Program\AndroidStudioSDK\Project\android-basics-kotlin-words-app\app\src\main\AndroidManifest.xml:26:9-43
+41        <activity
+41-->D:\Program\AndroidStudioSDK\Project\android-basics-kotlin-words-app\app\src\main\AndroidManifest.xml:27:9-29:58
+42            android:name="com.example.wordsapp.DetailActivity"
+42-->D:\Program\AndroidStudioSDK\Project\android-basics-kotlin-words-app\app\src\main\AndroidManifest.xml:28:13-43
+43            android:parentActivityName="com.example.wordsapp.MainActivity" />
+43-->D:\Program\AndroidStudioSDK\Project\android-basics-kotlin-words-app\app\src\main\AndroidManifest.xml:29:13-55
+44        <activity
+44-->D:\Program\AndroidStudioSDK\Project\android-basics-kotlin-words-app\app\src\main\AndroidManifest.xml:30:9-37:20
+45            android:name="com.example.wordsapp.MainActivity"
+45-->D:\Program\AndroidStudioSDK\Project\android-basics-kotlin-words-app\app\src\main\AndroidManifest.xml:30:19-47
+46            android:exported="true" >
+46-->D:\Program\AndroidStudioSDK\Project\android-basics-kotlin-words-app\app\src\main\AndroidManifest.xml:31:13-36
+47            <intent-filter>
+47-->D:\Program\AndroidStudioSDK\Project\android-basics-kotlin-words-app\app\src\main\AndroidManifest.xml:32:13-36:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->D:\Program\AndroidStudioSDK\Project\android-basics-kotlin-words-app\app\src\main\AndroidManifest.xml:33:17-69
+48-->D:\Program\AndroidStudioSDK\Project\android-basics-kotlin-words-app\app\src\main\AndroidManifest.xml:33:25-66
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->D:\Program\AndroidStudioSDK\Project\android-basics-kotlin-words-app\app\src\main\AndroidManifest.xml:35:17-77
+50-->D:\Program\AndroidStudioSDK\Project\android-basics-kotlin-words-app\app\src\main\AndroidManifest.xml:35:27-74
+51            </intent-filter>
+52        </activity>
+53
+54        <provider
+54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\vuvub\.gradle\caches\transforms-3\08b043ba2791781dcb4400faf0392593\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+55            android:name="androidx.startup.InitializationProvider"
+55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\vuvub\.gradle\caches\transforms-3\08b043ba2791781dcb4400faf0392593\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+56            android:authorities="com.example.wordsapp.androidx-startup"
+56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\vuvub\.gradle\caches\transforms-3\08b043ba2791781dcb4400faf0392593\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+57            android:exported="false" >
+57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\vuvub\.gradle\caches\transforms-3\08b043ba2791781dcb4400faf0392593\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+58            <meta-data
+58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\vuvub\.gradle\caches\transforms-3\08b043ba2791781dcb4400faf0392593\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+59                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+59-->[androidx.emoji2:emoji2:1.2.0] C:\Users\vuvub\.gradle\caches\transforms-3\08b043ba2791781dcb4400faf0392593\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+60                android:value="androidx.startup" />
+60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\vuvub\.gradle\caches\transforms-3\08b043ba2791781dcb4400faf0392593\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+61            <meta-data
+61-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\vuvub\.gradle\caches\transforms-3\4d1065e1a15ab78e3590ec7a7d718a80\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+62                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+62-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\vuvub\.gradle\caches\transforms-3\4d1065e1a15ab78e3590ec7a7d718a80\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+63                android:value="androidx.startup" />
+63-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\vuvub\.gradle\caches\transforms-3\4d1065e1a15ab78e3590ec7a7d718a80\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+64        </provider>
+65    </application>
+66
+67</manifest>

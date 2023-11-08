@@ -1,0 +1,7 @@
+com.example.wordsapp.test.app-androidTest-0 D:\Program\AndroidStudioSDK\Project\android-basics-kotlin-words-app\app\build\generated\res\resValues\androidTest\debug
+com.example.wordsapp.test.app-androidTest-1 D:\Program\AndroidStudioSDK\Project\android-basics-kotlin-words-app\app\build\generated\res\rs\androidTest\debug
+com.example.wordsapp.test.app-mergeDebugAndroidTestResources-2 D:\Program\AndroidStudioSDK\Project\android-basics-kotlin-words-app\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.wordsapp.test.app-mergeDebugAndroidTestResources-3 D:\Program\AndroidStudioSDK\Project\android-basics-kotlin-words-app\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.wordsapp.test.app-merged_res-4 D:\Program\AndroidStudioSDK\Project\android-basics-kotlin-words-app\app\build\intermediates\merged_res\debugAndroidTest
+com.example.wordsapp.test.app-androidTest-5 D:\Program\AndroidStudioSDK\Project\android-basics-kotlin-words-app\app\src\androidTest\res
+com.example.wordsapp.test.app-androidTestDebug-6 D:\Program\AndroidStudioSDK\Project\android-basics-kotlin-words-app\app\src\androidTestDebug\res

@@ -1,0 +1,4 @@
+#Sun Nov 05 18:38:50 ICT 2023
+base.0=D\:\\Program\\AndroidStudioSDK\\Project\\android-basics-kotlin-words-app\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeDexDebugAndroidTest\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

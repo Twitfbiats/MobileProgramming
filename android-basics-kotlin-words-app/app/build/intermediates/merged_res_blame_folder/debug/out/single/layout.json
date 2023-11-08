@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.example.wordsapp-mergeDebugResources-28:/layout/item_view.xml",
+        "source": "com.example.wordsapp-main-31:/layout/item_view.xml"
+    },
+    {
+        "merged": "com.example.wordsapp-mergeDebugResources-28:/layout/activity_detail.xml",
+        "source": "com.example.wordsapp-main-31:/layout/activity_detail.xml"
+    },
+    {
+        "merged": "com.example.wordsapp-mergeDebugResources-28:/layout/activity_main.xml",
+        "source": "com.example.wordsapp-main-31:/layout/activity_main.xml"
+    }
+]
